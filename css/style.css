@@ -90,15 +90,6 @@ article {
         align-items: center;
         justify-content: center;
     }
-    p,
-    h1,
-    h2,
-    h3 {
-        padding: 50px;
-        /*background-color: blanchedalmond;
-        */
-        color: white;
-    }
     .ul {
         display: none;
     }
@@ -113,5 +104,4 @@ article {
         display: grid;
         grid-template-columns: 1fr;
     }
-    #stefanos img {}
 }
