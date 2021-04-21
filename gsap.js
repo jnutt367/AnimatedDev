@@ -1,5 +1,8 @@
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.to('h1', { duration: 2, color: "red", repeat: -1, textShadow: "2px 2px white" });
+gsap.to('h2', { duration: 10, color: "green", scale: "0.8", ease: "elastic", textContent: "As you scroll down this page will be transforming with the wonderful powers of GSAP3 animations" });
+
 
 let tl = gsap.timeline({
         scrollTrigger: {
