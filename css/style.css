@@ -73,6 +73,17 @@ footer {
     height: 600px;
 }
 
+#stefanos img {
+    border: 2p solid red;
+    width: 100%;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
 @media (max-width: 600px) {
     .ul {
         display: none;
@@ -80,5 +91,9 @@ footer {
     .main-content img {
         height: 100px;
         width: 100px;
+    }
+    article {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
