@@ -7,6 +7,8 @@
 body {
     background-color: black;
     color: white;
+    text-align: center;
+    margin: 0 100px
 }
 
 .logo {
@@ -28,6 +30,7 @@ body {
     display: flex;
     padding: 10px;
     align-items: space-around;
+    cursor: progress;
 }
 
 h1 {
@@ -38,7 +41,7 @@ h1 {
     height: 400px;
 }
 
-
+.main-img
 /* ---end nav styling -------- */
 
 .main-content {
@@ -70,7 +73,7 @@ footer {
     height: 600px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
     .ul {
         display: none;
     }
