@@ -19,5 +19,5 @@ let tl = gsap.timeline({
     .to('.svg', { opacity: 1, ease: "bounce" })
     .to('.jason', { duration: 3, y: -300, borderRadius: "50%" })
     .to('h2', { duration: 4, y: 250, margin: "0", color: "white", background: "transparent", textContent: "So I thought I would showcase animation in my Portfolio, I mean it ONLY makes sense", paddingRight: "15", paddingLeft: "15", fontFamily: "fantasy", fontSize: "1.5em" })
-    .to('h2', { duration: 5, textContent: "MY PROJECTS", color: "skyblue", y: -100 })
+    .to('.MyProjects', { duration: 5, scale: "1.5", ease: "elastic", textContent: "MY PROJECTS", color: "skyblue", y: -150 })
     .to('p', { textAlign: "center", y: -300, duration: 5, scale: "1.1", fontFamily: "fantasy", paddingRight: "15", paddingLeft: "15", fontSize: "20" })

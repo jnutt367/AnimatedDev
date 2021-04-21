@@ -1,1 +1,1 @@
-gsap.to('li', { color: "skyblue", y: 300 })
+gsap.fromTo('li', { color: "white", opacity: 0 }, { duration: "4", scale: "1.2", color: "skyblue", opacity: 1, ease: "elastic" })
